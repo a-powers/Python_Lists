@@ -1,1 +1,1 @@
-"Hi ya d"
+print("eeenie meanie mynie moe")
