@@ -31,11 +31,10 @@
 
 # Coding Exercise 17
 
-nl = [[3, 4, 5], [7, 8, 9], [10, 11, 12]]
 
 def nested_extraction(a: list, b: int):
-    return nl[a][b]
-print(nested_extraction(0, 1))
+    return a[b][b]
+print(nested_extraction(a = [[3, 4, 5], [7, 8, 9], [10, 11, 12]], b = 2))
     
 
 
