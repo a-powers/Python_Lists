@@ -22,12 +22,12 @@
 
 # # Coding Exercise 16
 
-# def split_in_two(a = list, b = int):
-#     if b % 2 == 0:
-#         return a[2:]
-#     else:
-#         return a[:2]
-# print(split_in_two(a = ["a", "b", "c", "d", "e", "f"], b = 10))
+def split_in_two(a = list, b = int):
+    if b % 2 == 0:
+        return a[2:]
+    else:
+        return a[:2]
+print(split_in_two(a = ["a", "b", "c", "d", "e", "f"], b = 10))
 
 # Coding Exercise 17
 
