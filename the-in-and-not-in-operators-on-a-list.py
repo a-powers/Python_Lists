@@ -27,8 +27,3 @@ print(35 not in meals)
 
 if 1000 not in test_scores:
     print("This number is not in there!")
-
-
-# Study it
-if [5,4,3] not in [5,4,3]:
-    print("yeah")
