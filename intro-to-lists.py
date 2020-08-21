@@ -12,13 +12,3 @@
 # print(len(user_settings))
 
 
-
-# Coding Exercise 14
-
-
-def is_long(fruits = []):
-    if len(fruits) > 5:
-        return True
-    else:
-        return False
-print(is_long(fruits= ["a", "b", "c", "d", "e", "f"]))
